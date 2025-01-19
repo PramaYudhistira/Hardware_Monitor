@@ -1,7 +1,7 @@
 #include "Utility.h"
 
 
-int detectOS() {
+int getOS() {
     #ifdef _WIN32
         return 1;
     #elif __linux__
